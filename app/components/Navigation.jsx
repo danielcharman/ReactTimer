@@ -11,11 +11,11 @@ let Navigation = () => {
             <IndexLink to="/" activeClassName="active-link">Timer</IndexLink>
           </li>
           <li>
-            <Link to="/" activeClassName="active-link">Countdown</Link>
+            <Link to="/countdown" activeClassName="active-link">Countdown</Link>
           </li>
         </ul>
       </div>
-      <div className="top-bar-right">
+      <div className="top-bar-right d">
         <ul className="menu">
           <li className="menu-text">
             Created by <a href="http://danielcharman.com" target="blank">Daniel Charman</a>
